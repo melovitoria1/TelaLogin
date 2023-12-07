@@ -1,0 +1,76 @@
+body{
+	font-family: arial;
+	background-image: linear-gradient(65deg,blueviolet,blueviolet,blue);
+}
+.telaLogin{
+	background-color: white;
+	position: absolute;
+	padding-left: 50px;
+	padding-top: 40px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	border-radius: 20px;
+	padding: 50px;
+	top: 50%;
+	left: 50%;
+	width: 19vw;
+	transform: translate(-50%,-50%);
+	
+}
+.input{
+	padding: 15px;
+	border: none;
+
+	outline: none;
+	transition: all 0.4s;
+	background: transparent;
+	font-size: 15px;
+}
+
+
+
+.input:hover{
+	transition: 1s;
+	font-size: 1em;
+}
+
+.input1{
+	padding: 15px;
+	border: none;
+
+	outline: none;
+	transition: all 0.4s;
+	background: transparent;
+	font-size: 15px;
+}
+.input1 > hr:hover{
+	transition: 1s;
+	font-size: 1em;
+	background-color: blue;
+}
+
+.acesso{
+	background-color: blueviolet;
+	border: none;
+    padding-left:20px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+
+    transform: translate(3%,20%);
+    font-weight: bold;
+    margin-left: 70px;
+    
+}
+
+.acesso:hover{
+	background-color: black;
+	font-size: 1.4em;
+	transition: 1s;
+	cursor: pointer;
+}
